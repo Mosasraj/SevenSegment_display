@@ -1,4 +1,4 @@
-#Aim:
+*Aim:*
 
   To design and simulate a Seven Segment using Verilog HDL and verify its functionality through a testbench using the Vivado 2023.1 simulation environment.
 Apparatus Required:
