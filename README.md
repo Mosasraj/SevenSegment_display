@@ -1,12 +1,11 @@
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/c7d8b794-7f1b-4f13-8736-d4be0923044b" />Exp-No: 02 - Write and simulate seven segment display using Verilog HDL and verify with testbench
-Aim:
+##Aim:
 
   To design and simulate a Seven Segment using Verilog HDL and verify its functionality through a testbench using the Vivado 2023.1 simulation environment.
 Apparatus Required:
 
   Vivado 2023.1
 
-Procedure:
+##Procedure:
 
 
 Launch Vivado Open Vivado 2023.1 by double-clicking the Vivado icon or searching for it in the Start menu.
