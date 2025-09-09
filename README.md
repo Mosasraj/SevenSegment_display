@@ -5,7 +5,7 @@ Apparatus Required:
 
   Vivado 2023.1
 
-##Procedure:
+**Procedure:**
 
 
 Launch Vivado Open Vivado 2023.1 by double-clicking the Vivado icon or searching for it in the Start menu.
@@ -19,12 +19,12 @@ Generate Simulation Report Once the simulation is complete, you can generate a s
 Save and Document Results Save your project by clicking File → Save Project. Take screenshots of the waveform window and include them in your lab report to document your results. You can include the timing diagram from the simulation window showing the correct functionality of the Seven Segment across different select inputs and data inputs.
 Close the Simulation Once done, by going to Simulation → "Close Simulation
 
-##Input/Output Signal Diagram:
+**Input/Output Signal Diagram:**
 
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/38c9516c-95a6-44b2-8747-70cd31a64719" />
 
-##RTL Code:
+**RTL Code:**
 ```
 module Sevensegment(bcd,seg);
 input[3:0]bcd;
@@ -48,7 +48,7 @@ end
 endmodule
 ```
 
-##TestBench:
+**TestBench:**
 ```
 module Sevensegment_tb;
   reg [3:0] bcd_tb;
@@ -82,12 +82,12 @@ initial
 endmodule
 ```
 
-##Output waveform:
+**Output waveform:**
 
 <img width="1357" height="847" alt="image" src="https://github.com/user-attachments/assets/f670ad34-71e1-4e71-8d4e-af9c699615f3" />
 
 
-##Conclusion:
+**Conclusion:**
 
    The Seven Segment Display experiment successfully demonstrated how numerical values (0–9) can be represented using a combination of illuminated segments. By giving the proper binary or BCD inputs to the decoder/driver circuit, the display showed the corresponding digit clearly. This experiment helped in understanding the working principle of segment displays, the concept of active high/active low configurations, and the importance of digital logic in driving display devices. It also established the practical application of combinational logic circuits in real-time devices such as calculators, digital clocks, and measuring instruments.
 
